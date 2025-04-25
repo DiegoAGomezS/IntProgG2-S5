@@ -5,9 +5,9 @@ if salario > 3000:
 elif salario > 1500 and salario <= 3000:
     bono = salario * 0.05
 elif salario <= 1500:
-    print ("Usted no tendrá bono")
+    bono = salario * 0
 else:
-    bono = 0
+    print("Usted no tendrá bono")
 
 print(f"{"Salario: ":<19} {salario:<3}")    
 print(f"{"Bono: ":<19} {bono:<3.2f}")
